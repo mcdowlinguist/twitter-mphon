@@ -1,7 +1,6 @@
 library(tidyverse)
 library(sf)
-
-# assume import place data imported as `all_places`
+# assume place data imported as `all_places`, tweets imported as `all`
 
 all = all_places %>% 
   rename(place_id = id) %>% 
